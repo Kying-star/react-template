@@ -1,7 +1,15 @@
+/*
+ * @Author: your name
+ * @Date: 2021-03-01 17:10:31
+ * @LastEditTime: 2021-03-01 23:29:26
+ * @LastEditors: Please set LastEditors
+ * @Description: In User Settings Edit
+ * @FilePath: /react-template/src/index.js
+ */
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import './assets/css/index.scss';
+import App from './App.jsx';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
