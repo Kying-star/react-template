@@ -4,6 +4,7 @@ import router from "./router/route"
 import Home from "./view/Home"
 import About from "./view/About";
 import Users from "./view/Users";
+
 function App() {
   console.log(router)
   return (

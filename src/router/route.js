@@ -1,26 +1,14 @@
 /*
  * @Author: your name
  * @Date: 2021-03-01 21:11:09
- * @LastEditTime: 2021-03-01 23:00:25
+ * @LastEditTime: 2021-06-23 20:39:16
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /react-template/src/router/route.js
  */
-const About = () => {
-  return (
-    <div><h1>About</h1></div>
-  )
-}
-const Users = () => {
-  return (
-    <div><h1>users</h1></div>
-  )
-}
-const Home = () => {
-  return (
-    <div><h1>home</h1></div>
-  )
-}
+import Home from "../view/Home"
+import Users from "../view/Users"
+import About from "../view/About"
 const router = [
   {
     path:"/",
